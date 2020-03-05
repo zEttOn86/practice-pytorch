@@ -5,7 +5,7 @@ To learn how to use pytorch, hydra, ignite, lightning
 
 ### Check list
 - [x] pytorch 1.4.0
-- [ ] hydra 
+- [x] hydra 
 - [x] ignite
 - [x] lightning
 
