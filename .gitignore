@@ -2,8 +2,7 @@
 !.gitkeep
 .vscode
 data/*
-mnist/custom_*/output/*
-
+mnist/custom_*/outputs/*
 # Python ############################################
 # Byte-compiled / optimized / DLL files
 __pycache__/

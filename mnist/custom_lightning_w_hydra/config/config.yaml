@@ -1,0 +1,20 @@
+# https://hydra.cc/docs/tutorial/working_directory/
+# https://hydra.cc/docs/next/configure_hydra/workdir
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+log_dir:
+
+seed: 2334
+gpus: 0
+
+model_save_interval: 1
+log_save_interval: 100
+validation_interval: 1
+
+epochs: 14
+batch_size: 64
+learning_rate: 0.001
+
+
