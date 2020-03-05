@@ -31,6 +31,7 @@ if __name__ == "__main__":
 
     # init
     torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
     np.random.seed(args.seed)
     torch.backends.cudnn.benchmark = True
 
