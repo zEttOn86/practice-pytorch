@@ -7,7 +7,7 @@ hydra:
 log_dir:
 
 seed: 2334
-gpus: 0
+gpus: 1
 
 model_save_interval: 1
 log_save_interval: 100

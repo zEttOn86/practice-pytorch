@@ -19,7 +19,6 @@ def main(cfg):
     torch.cuda.manual_seed(args.seed)
     np.random.seed(args.seed)
     torch.backends.cudnn.benchmark = True
-    print(type(args))
     args.log_dir = os.getcwd()
     # To save
     # https://pytorch-lightning.readthedocs.io/en/latest/trainer.html
