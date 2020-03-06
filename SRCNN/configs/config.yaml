@@ -1,0 +1,22 @@
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+seed: 2020
+log_dir: None
+gpus: 1
+
+# Iterations
+log_save_interval: 100
+# Epochs
+model_save_interval: 1
+validation_interval: 1
+
+epochs: 400
+batch_size: 16
+learning_rate: 1e-4
+
+datasets:
+  root_dir: None
+  train_path: ../data/SRCNN/train/91-image_x4.h5
+  test_path: ../data/SRCNN/test/Set5_x4.h5
