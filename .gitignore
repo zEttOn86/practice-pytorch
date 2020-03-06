@@ -3,6 +3,8 @@
 .vscode
 data/*
 mnist/custom_*/outputs/*
+SRCNN/outputs/*
+
 # Python ############################################
 # Byte-compiled / optimized / DLL files
 __pycache__/
